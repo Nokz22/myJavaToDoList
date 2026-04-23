@@ -10,6 +10,7 @@ public class Main {
 
         TaskService taskService = new TaskService();
         TaskUI taskUI = new TaskUI(taskService,new Scanner(System.in));
+        taskUI.start();
 
      }
 
