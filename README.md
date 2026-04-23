@@ -1,63 +1,67 @@
 📝 My To-Do List — Java MVC Console App
-A simple To-Do List console application built in Java, following the MVC (Model-View-Controller) architecture pattern. This is the first project in my Java learning journey, focused on building clean, professional, and well-structured code.
 
-🎯 What I Learned
+A simple console-based To-Do List application built in Java, following the MVC (Model-View-Controller) architecture.
 
-MVC architecture and separation of concerns
-Object-Oriented Programming (OOP) — classes, encapsulation, constructors
-Enums for fixed state management
-ArrayList and collections
-For-each loops and switch expressions
-Dependency Injection pattern
-Git & GitHub workflow
+This project marks the beginning of my Java learning journey, with a strong focus on writing clean, maintainable, and well-structured code.
 
+🚀 Overview
 
-🛠️ Technologies Used
+This application allows users to manage tasks directly from the console, demonstrating core programming concepts such as:
 
+Separation of concerns using MVC
+Object-Oriented Programming (OOP) principles
+Clean code practices and project organization
+🎯 Key Learnings
+MVC Architecture — clear separation between Model, View, and Controller
+OOP Concepts — classes, encapsulation, constructors
+Enums — handling fixed states in a type-safe way
+Collections — working with ArrayList
+Control Flow — for-each loops and switch expressions
+Dependency Injection — basic implementation
+Git & GitHub — version control and workflow
+🛠️ Tech Stack
 Java 17+
 IntelliJ IDEA
 Git & GitHub
-
-
 📦 Project Structure
 src/
 ├── model/
-│   ├── Task.java          # Task data model with encapsulation
-│   └── TaskState.java     # Enum with task states (PENDING, IN_PROGRESS, COMPLETED)
+│   ├── Task.java          # Task entity with encapsulation
+│   └── TaskState.java     # Enum (PENDING, IN_PROGRESS, COMPLETED)
 ├── service/
-│   └── TaskService.java   # Business logic — add, list, update, remove tasks
+│   └── TaskService.java   # Business logic layer
 ├── ui/
-│   └── TaskUI.java        # User interface — menus and user input handling
-└── Main.java              # Entry point — initializes and starts the application
+│   └── TaskUI.java        # Console interface (input/output)
+└── Main.java              # Application entry point
+⚙️ Getting Started
+1. Clone the repository
+git clone https://github.com/Nokz22/myJavaToDoList.git
+2. Open in your IDE
 
-⚙️ How to Run
+Import the project into IntelliJ IDEA (or any Java IDE).
 
-Clone the repository:
+3. Run the application
 
-bashgit clone https://github.com/Nokz22/myJavaToDoList.git
+Execute:
 
-Open the project in IntelliJ IDEA
-Run Main.java
-
-
+Main.java
 💡 Features
-
-Add a new task with title and description
-List all tasks
-Update task state (PENDING → IN_PROGRESS → COMPLETED)
-Remove a task by ID
-Input validation with default case handling
-
-
+✅ Add new tasks (title + description)
+📋 List all tasks
+🔄 Update task status
+PENDING → IN_PROGRESS → COMPLETED
+❌ Remove tasks by ID
+⚠️ Input validation with safe fallbacks
 🗺️ Roadmap
-This is Project 1 of my Java learning path:
 
- Project 1 — To-Do List (MVC + OOP basics)
- Project 2 — Student Grade Manager (Inheritance + Abstract classes)
- Project 3 — Vehicle Workshop (Interfaces + Custom exceptions)
- Project 4 — Simple Bank System (Full architecture)
- Project 5 — REST API with Spring Boot
+This project is part of a structured learning path:
 
-
+To-Do List — MVC + OOP fundamentals (current)
+Student Grade Manager — Inheritance & Abstract Classes
+Vehicle Workshop — Interfaces & Custom Exceptions
+Bank System — Layered architecture
+REST API — Spring Boot
 👨‍💻 Author
-Nokz22 — learning Java with a focus on clean architecture and professional development practices.
+
+Nokz22
+Aspiring Java developer focused on clean architecture and professional development practices.
