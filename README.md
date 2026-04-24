@@ -41,7 +41,7 @@ src/
 
   # ⚙️ Getting Started  
    1. Clone the repository  
-    git clone https://github.com/Nokz22/myJavaToDoList.git
+    git clone https://github.com/Nokz22/myJavaToDoList.git  
     2. Open in your IDE  
     Import the project into IntelliJ IDEA (or any Java IDE).  
     3. Run the application
